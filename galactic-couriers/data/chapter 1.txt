@@ -5,9 +5,7 @@ mission "Courier: Encounter"
 		has "First Contact: Hai: offered"
 		has "First Contact: Remnant: offered"
 		has "First Contact: Wanderer: offered"
-		has "Coalition: First Contact: offered"
 		has "main plot completed"
-		random >= 75
 	on offer
 		conversation
 			scene "scene/freighter-scene"
@@ -269,7 +267,6 @@ mission "Courier: Korath raid 1"
 	destination "Meliter Station"
 	to offer
 		"courier jobs" >= 7
-		random > 40
 	on offer
 		conversation
 			`Shortly after your landing, sirens start sounding off around the station. You try asking people what's happening, but they seem to be as confused as you are. Finally, one of the Courier security guards finds you and starts explaining.`
@@ -956,7 +953,7 @@ mission "Courier: Research 4"
 			`"Meliter..." he says slowly, "we checked all the systems around, but we never ran the scan here... The vessel never left Meliter!"`
 			`	Chris gets up from his chair in a rush and runs to the other side of the lab where some of his colleagues are working.`
 			`	"Run the system scan!" he yells. The scientists activate the station's long-range sensors and nervously wait for them to sweep the system.`
-			`	"Oh my god" says one of them, "you are right, we have a contact on the far edge of the solar system and it is slowly drifting our way."`
+			`	"Oh my gosh" says one of them, "you are right, we have a contact on the far edge of the solar system and it is slowly drifting our way."`
 			`	"I need to tell Novak! We have to evacuate!" says Chris and runs outside of the lab in the direction of the spaceport. You should probably follow him and find out what's going on.`
 			
 mission "Courier: Evacuation 1"

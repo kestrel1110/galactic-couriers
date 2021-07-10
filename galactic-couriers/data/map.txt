@@ -1,47 +1,4 @@
-system Meliter
-	pos 190 -480
-	government Courier
-	habitable 2035
-	belt 1120
-	asteroids "small rock" 127 4.34
-	asteroids "medium rock" 23 4.41
-	asteroids "large rock" 63 4.13
-	minables aluminum 20 5.16891
-	minables lead 15 5.12023
-	trade Clothing 370
-	trade Electronics 683
-	trade Equipment 588
-	trade Food 488
-	trade "Heavy Metals" 907
-	trade Industrial 740
-	trade "Luxury Goods" 1331
-	trade Medical 604
-	trade Metal 320
-	trade Plastic 449
-	fleet "Courier Security" 1000
-	fleet "Courier Freight" 1000
-	fleet "Courier Scout" 1500
-	object
-		sprite star/f5
-		distance 16.1966
-		period 9.26902
-	object
-		sprite star/f5
-		distance 120.8034
-		period 9.26902
-	object
-		sprite star/m0
-		distance 500
-		period 14
-	object
-		sprite planet/desert7-b
-		distance 1262.451
-		period 61.1859
-		object "Meliter Station"
-			sprite planet/station3kh
-			distance 473.55
-			period 41.1893
-			
+
 system Anu
 	pos -1343.36 -1125.89
 	government Uninhabited
@@ -80,7 +37,7 @@ system Anu
 		sprite planet/gas5
 		distance 2376.06
 		period 1853.13
-		
+
 system Ceridwen
 	pos -1250.86 -994.17
 	government Uninhabited
@@ -92,14 +49,14 @@ system Ceridwen
 	asteroids "small metal" 10 5.5566
 	asteroids "medium metal" 49 4.1454
 	asteroids "large metal" 15 2.5137
-	trade "Metal" 190
+	trade Clothing 260
+	trade Electronics 815
+	trade Equipment 630
+	trade Food 300
 	trade "Heavy Metals" 610
-	trade "Food" 300
-	trade "Clothing" 260
-	trade "Medical" 805
-	trade "Equipment" 630
-	trade "Industrial" 820
-	trade "Electronics" 815
+	trade Industrial 820
+	trade Medical 805
+	trade Metal 190
 	object
 		sprite star/k5
 		period 10
@@ -135,12 +92,7 @@ system Ceridwen
 			sprite planet/ice0
 			distance 208
 			period 15.7904
-			
-planet Niamh
-	attributes moon
-	landscape land/canyon03
-	description `Niamh is a cold and desolate moon. While the atmospheric composition is almost identical to the human homeworld, the low pressure means that anyone outside of their ship or a space suit would quickly suffocate. But that still didn't stop many species of oxygen-producing microorganisms to form colonies in the few liquid water puddles.`
-			
+
 system Donn
 	pos -1117.47 -1053.25
 	government Uninhabited
@@ -183,11 +135,7 @@ system Donn
 		sprite planet/wormhole-red
 		distance 2500
 		period 3000
-		
-planet "Donn Wormhole"
-	attributes "requires: hyperspace augmenter"
-	description ""
-			
+
 system Mabon
 	pos -1529.73 -1005
 	government Uninhabited
@@ -199,13 +147,13 @@ system Mabon
 	asteroids "small metal" 70 3.4425
 	asteroids "medium metal" 77 6.205
 	asteroids "large metal" 51 3.74
-	trade "Food" 300
-	trade "Clothing" 260
-	trade "Equipment" 630
-	trade "Medical" 805
-	trade "Industrial" 820
-	trade "Electronics" 815
+	trade Clothing 260
+	trade Electronics 815
+	trade Equipment 630
+	trade Food 300
+	trade Industrial 820
 	trade "Luxury Goods" 1370
+	trade Medical 805
 	object
 		sprite star/k5
 		distance 46
@@ -238,11 +186,51 @@ system Mabon
 		distance 2547.15
 		period 1761.82
 		offset 359.548
-		
-planet Bergimus
-	landscape land/beach8-sfiera
-	description `If it weren't for the lack of solid surface, Bergimus would be perfect for habitation. Because this moon orbits so close to a gas giant, the tidal forces were strong enough to break up and wash away most land. Islands made of piled up rocks sometimes rise above the water, but they don't stay solid long enough for any land-based life to develop. But there is a presence of mainly algae in the water that supply the atmosphere with oxygen.`
-		
+
+system Meliter
+	pos 189 -450
+	government Courier
+	habitable 2035
+	belt 1120
+	asteroids "small rock" 127 4.34
+	asteroids "medium rock" 23 4.41
+	asteroids "large rock" 63 4.13
+	minables aluminum 20 5.16891
+	minables lead 15 5.12023
+	trade Clothing 370
+	trade Electronics 683
+	trade Equipment 588
+	trade Food 488
+	trade "Heavy Metals" 907
+	trade Industrial 740
+	trade "Luxury Goods" 1331
+	trade Medical 604
+	trade Metal 320
+	trade Plastic 449
+	fleet "Courier Security" 1000
+	fleet "Courier Freight" 1000
+	fleet "Courier Scout" 1500
+	object
+		sprite star/f5
+		distance 16.1966
+		period 9.26902
+	object
+		sprite star/f5
+		distance 120.803
+		period 9.26902
+	object
+		sprite star/m0
+		distance 500
+		period 14
+	object
+		sprite planet/desert7-b
+		distance 1262.45
+		period 61.1859
+		object "Meliter Station"
+			sprite planet/station3kh
+			distance 473.55
+			period 41.1893
+
 system Moccus
 	pos -1340.47 -1224.25
 	government Uninhabited
@@ -286,13 +274,13 @@ system Moccus
 			sprite planet/rock17
 			distance 446
 			period 24.0584
-			
+
 system Nisien
 	pos -1270.65 -1177.64
 	government Uninhabited
 	habitable 486.68
-	link Nodens
 	link Moccus
+	link Nodens
 	link Taranis
 	asteroids "small rock" 11 3.1878
 	asteroids "medium rock" 29 4.389
@@ -326,24 +314,24 @@ system Nisien
 		distance 2023.62
 		period 1650.56
 		offset 0.586323
-		
+
 system Nodens
 	pos -1276.47 -1086.25
 	government Uninhabited
 	habitable 425.92
-	link Seonaidh
 	link Anu
-	link Nisien
 	link Ceridwen
+	link Nisien
+	link Seonaidh
 	asteroids "medium rock" 56 2.1112
 	asteroids "large rock" 10 2.4206
 	asteroids "small metal" 1 1.1284
 	asteroids "medium metal" 59 1.2194
 	asteroids "large metal" 5 1.547
-	trade "Food" 100
-	trade "Clothing" 260
-	trade "Medical" 805
-	trade "Electronics" 815
+	trade Clothing 260
+	trade Electronics 815
+	trade Food 100
+	trade Medical 805
 	object
 		sprite star/k5
 		period 10
@@ -384,11 +372,7 @@ system Nodens
 			sprite planet/dust7
 			distance 232
 			period 17.6061
-			
-planet Boann
-	landscape land/sea2
-	description `Even though Boann is at the very edge of the habitable zone, the air is pleasant and warm. The planet is almost entirely covered in one ocean, with only occasional islands rising above. The ocean is subject to extreme volcanic activity, but because of its depth almost no earthquakes reach the surface and the only impact it has is releasing warm water which sustains the local single-celled organism and algae ecosystem.`
-			
+
 system Ogma
 	pos -1436.52 -1040.99
 	government Uninhabited
@@ -399,11 +383,11 @@ system Ogma
 	asteroids "medium rock" 35 2.1504
 	asteroids "large rock" 10 2.6368
 	asteroids "large metal" 13 1.7408
-	trade "Food" 475
-	trade "Clothing" 365
-	trade "Medical" 930
-	trade "Electronics" 815
+	trade Clothing 365
+	trade Electronics 815
+	trade Food 475
 	trade "Luxury Goods" 1520
+	trade Medical 930
 	object
 		sprite star/k0
 		period 10
@@ -435,11 +419,7 @@ system Ogma
 			sprite planet/rock3
 			distance 453
 			period 24.627
-			
-planet Matunus
-	landscape land/water2
-	description `Matunus is the most Earth-like planet in this lonely star cluster. The star it orbits has properties very similar to Sol and the gas giant at the edge of the star system protects the inner planets from asteroids. The main difference between Matunus and Earth is that there are no seasons here. The temperatures and climates are constant throughout the year and only differ by their distance from the equator.`
-			
+
 system Seonaidh
 	pos -1179.36 -1021.89
 	government Uninhabited
@@ -451,15 +431,15 @@ system Seonaidh
 	asteroids "small metal" 2 1.83
 	asteroids "medium metal" 1 3.69
 	asteroids "large metal" 1 3.18
-	trade "Equipment" 330
-	trade "Industrial" 520
-	trade "Electronics" 590
-	trade "Food" 300
-	trade "Clothing" 260
-	trade "Metal" 490
-	trade "Plastic" 465
-	trade "Medical" 805
+	trade Clothing 260
+	trade Electronics 590
+	trade Equipment 330
+	trade Food 300
 	trade "Heavy Metals" 1135
+	trade Industrial 520
+	trade Medical 805
+	trade Metal 490
+	trade Plastic 465
 	object
 		sprite star/m8
 		period 10
@@ -487,11 +467,7 @@ system Seonaidh
 			sprite planet/dust5
 			distance 246
 			period 12.1245
-			
-planet Taliesin
-	landscape land/snow8
-	description `Taliesin is a huge planet, yet its low density results in the gravity being perfect for humans. The star it orbits is relatively weak, so the majority of the planet is covered in permanent ice, with only a few saltwater rivers and ponds present near the equator. The size and relatively fast rotation of the planet results in extremely strong winds which often spark immensely powerful thunderstorms.`
-			
+
 system Taranis
 	pos -1226.65 -1230.64
 	government Uninhabited
@@ -503,12 +479,12 @@ system Taranis
 	asteroids "small metal" 31 1.944
 	asteroids "medium metal" 7 1.872
 	asteroids "large metal" 1 3.168
-	trade "Food" 475
-	trade "Clothing" 365
-	trade "Equipment" 630
-	trade "Medical" 930
-	trade "Electronics" 815
+	trade Clothing 365
+	trade Electronics 815
+	trade Equipment 630
+	trade Food 475
 	trade "Luxury Goods" 1520
+	trade Medical 930
 	object
 		sprite star/f5
 		period 10
@@ -537,9 +513,24 @@ system Taranis
 			distance 248
 			period 12.9875
 
+planet Bergimus
+	landscape land/beach8-sfiera
+	description `If it weren't for the lack of solid surface, Bergimus would be perfect for habitation. Because this moon orbits so close to a gas giant, the tidal forces were strong enough to break up and wash away most land. Islands made of piled up rocks sometimes rise above the water, but they don't stay solid long enough for any land-based life to develop. But there is a presence of mainly algae in the water that supply the atmosphere with oxygen.`
+
+planet Boann
+	landscape land/sea2
+	description `Even though Boann is at the very edge of the habitable zone, the air is pleasant and warm. The planet is almost entirely covered in one ocean, with only occasional islands rising above. The ocean is subject to extreme volcanic activity, but because of its depth almost no earthquakes reach the surface and the only impact it has is releasing warm water which sustains the local single-celled organism and algae ecosystem.`
+
+planet "Donn Wormhole"
+	attributes "requires: hyperspace augmenter"
+
 planet Dorminus
 	landscape land/water6
-	description `The star Dorminus orbits is very powerful, and if it weren't for the planet's thick and reflective atmosphere, the surface would soon reach temperatures too high for any life to survive. But right now most of the light gets reflected back into space and the temperature and atmospheric conditions are perfect for life to thrive.`			
+	description `The star Dorminus orbits is very powerful, and if it weren't for the planet's thick and reflective atmosphere, the surface would soon reach temperatures too high for any life to survive. But right now most of the light gets reflected back into space and the temperature and atmospheric conditions are perfect for life to thrive.`
+
+planet Matunus
+	landscape land/water2
+	description `Matunus is the most Earth-like planet in this lonely star cluster. The star it orbits has properties very similar to Sol and the gas giant at the edge of the star system protects the inner planets from asteroids. The main difference between Matunus and Earth is that there are no seasons here. The temperatures and climates are constant throughout the year and only differ by their distance from the equator.`
 
 planet "Meliter Station"
 	attributes station
@@ -550,3 +541,13 @@ planet "Meliter Station"
 	"required reputation" 5
 	bribe 0
 	security 0
+
+planet Niamh
+	attributes moon
+	landscape land/canyon03
+	description `Niamh is a cold and desolate moon. While the atmospheric composition is almost identical to the human homeworld, the low pressure means that anyone outside of their ship or a space suit would quickly suffocate. But that still didn't stop many species of oxygen-producing microorganisms to form colonies in the few liquid water puddles.`
+
+planet Taliesin
+	landscape land/snow8
+	description `Taliesin is a huge planet, yet its low density results in the gravity being perfect for humans. The star it orbits is relatively weak, so the majority of the planet is covered in permanent ice, with only a few saltwater rivers and ponds present near the equator. The size and relatively fast rotation of the planet results in extremely strong winds which often spark immensely powerful thunderstorms.`
+

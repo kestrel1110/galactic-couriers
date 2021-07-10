@@ -274,7 +274,6 @@ ship "Korath World-Ship" "Korath World-Ship (Courier)"
 	turret 66 210 "Anti-Missile Turret"
 	
 ship "Korath World-Ship" "Korath World-Ship (Courier Raid)"
-	"never disabled"
 	outfits
 		"Korath Grab-Strike" 2
 		"Korath Banisher" 3
@@ -303,7 +302,7 @@ ship "Modified Boxwing"
 	sprite "ship/boxwing"
 	thumbnail "thumbnail/boxwing"
 	attributes
-		category "Light Freighter"
+		category "Fighter"
 		cost 1500000
 		"hull" 800
 		"required crew" 1
@@ -333,7 +332,7 @@ ship "Modified Boxwing"
 	leak "flame" 50 80
 	explode "tiny explosion" 15
 	explode "small explosion" 5
-	description `When the Couriers first settled the new worlds in the North-west, they could only use a single ship to transport supplies from the human territory. It soon became apparent that before any serious colonies can be set up, many more ships would be required to haul resources around. The Couriers managed to obtain a Carrier ship which was given the ability to travel through the wormhole, and used it to transport large amounts of ordinary Boxwings. These small cargo ships were then modified so that they can hold their own fuel and hyperdrives and operate as completely independent vehicles. In order to make enough space for these new outfits, the Modified Boxwing lost all of its shields and some of its structural integrity, but that doesn't concern the Couriers given that piracy in their systems in non-existent.`
+	description `When the Couriers first settled the new worlds in the North-west, they could only use a single ship to transport supplies from the human territory. It soon became apparent that before any serious colonies can be set up, many more ships would be required to haul resources around. The Couriers managed to obtain a Carrier ship which was given the ability to travel through the wormhole, and used it to transport large amounts of ordinary Boxwings. These small cargo ships were then modified so that they can hold their own fuel and hyperdrives and operate as completely independent vehicles. In order to make enough space for these new outfits, the Modified Boxwing lost all of its shields and some of its structural integrity, but that doesn't concern the Couriers given that piracy in their systems is non-existent.`
 	description `The Modified Boxwing holds only enough fuel to make a single jump, therefore fleets consisting of these ships often have one or two Modified Boxwings converted to mobile 'fuel tankers'.`
 	
 ship "Modified Boxwing" "Modified Boxwing (Tanker)"
