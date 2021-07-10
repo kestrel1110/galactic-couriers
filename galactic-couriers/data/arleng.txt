@@ -31,8 +31,8 @@ outfit "Ar'leng Particle Accelerator"
 	cost 1234567
 	thumbnail "outfit/disruptor"
 	"mass" 83
-	"outfit space" -83
-	"weapon capacity" -83
+	"outfit space" -43
+	"weapon capacity" -43
 	"turret mounts" -1
 	weapon
 		sprite "projectile/arleng"
@@ -55,13 +55,14 @@ outfit "Ar'leng Particle Accelerator"
 		"firing heat" 0.1
 		"shield damage" 1500
 		"hull damage" 1500
+		"heat damage" 1500
 		"disruption damage" .24
 	description "This weapon uses a mysterious process to extract energy from the very fabric of space-time. This means that it can delvier lethal projectiles with only minimal energy costs."
 
 ship "Ar'leng Arbiter"
 	sprite "ship/arbiter"
 	thumbnail "thumbnail/arbiter"
-	
+	swizzle 6
 	attributes
 		category "Heavy Warship"
 		"cost" 1500000000
@@ -78,7 +79,6 @@ ship "Ar'leng Arbiter"
 		"outfit space" 3000
 		"weapon capacity" 800
 		"engine capacity" 1000
-		"self destruct" .99
 		"ramscoop" 10
 		weapon
 			"blast radius" 1000

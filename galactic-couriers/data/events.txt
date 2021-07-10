@@ -23,7 +23,7 @@ event "courier analyzers done"
 
 event "meliter shields up"
 	system Meliter
-		pos 190 -480
+		pos 189 -450
 		government Courier
 		habitable 2035
 		belt 1120
@@ -69,7 +69,7 @@ event "meliter shields up"
 event "meliter supernova"
 	unvisit "Meliter"
 	system Meliter
-		pos 190 -69420
+		pos 189 -69420
 		government Courier
 		habitable 2035
 		belt 1120
@@ -116,7 +116,7 @@ event "meliter return 0"
 
 event "meliter return 1"
 	system Meliter
-		pos 190 -480
+		pos 189 -450
 		government Uninhabited
 		habitable 2035
 		belt 1120
@@ -162,7 +162,7 @@ event "meliter return 1"
 
 event "republic occupies meliter"
 	system Meliter
-		pos 190 -480
+		pos 189 -450
 		government Republic
 		habitable 2035
 		belt 1120

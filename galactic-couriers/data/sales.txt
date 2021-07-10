@@ -3,3 +3,29 @@ shipyard "Courier Shipyard"
 	
 outfitter "Courier Outfits"
 	"Enhanced Keystone"
+	
+planet Everything
+	shipyard arleng
+	shipyard "Courier Special"
+planet Forge
+	shipyard arleng
+	shipyard "Courier Special"
+
+shipyard arleng
+	"Ar'leng Arbiter"
+
+shipyard "Courier Special"
+	"Starling (Courier)"
+	"Modified Boxwing (Tanker)"
+	"Modified Boxwing"
+	"Korath World-Ship (Courier Raid)"
+	"Korath World-Ship (Courier)"
+	"Headhunter (Courier)"
+	"Frigate (McKay)"
+	"Bulk Freighter (Courier longhaul)"
+	"Vanguard (Courier longhaul)"
+	"Protector (Courier longhaul)"
+	"Quicksilver (Courier longhaul)"
+	"Courier Freighter (Courier longhaul)"
+	"Courier Freighter"
+	"Bulk Freighter (Courier)"
